@@ -3,9 +3,6 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-# include <string.h>
-# include <stdio.h>
-# include <ctype.h>
 
 typedef struct s_list
 {
