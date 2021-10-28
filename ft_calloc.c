@@ -9,7 +9,7 @@ void	*ft_calloc(size_t num, size_t size)
 	ptr = malloc(num * size);
 	if (ptr == NULL)
 	{
-		return (ptr);
+		return (NULL);
 	}
 	while (i < size * num)
 	{
